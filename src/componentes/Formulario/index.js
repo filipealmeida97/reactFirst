@@ -6,8 +6,8 @@ import './Formulario.css';
 const Formulario = (props) => {
     
     //Estados dos input e select
-    const [nome, setNome] = useState('Filipe');
-    const [cargo, setCargo] = useState('Desenvolvedor Web');
+    const [nome, setNome] = useState('');
+    const [cargo, setCargo] = useState('');
     const [imagem, setImagem] = useState('');
     const [time, setTime] = useState(''); 
 
